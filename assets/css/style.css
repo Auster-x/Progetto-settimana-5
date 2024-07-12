@@ -3,7 +3,7 @@
 
 * {
     padding: 0;
-    box-sizing: border-box;
+
     font-family: Arial, sans-serif;
 }
 
@@ -12,10 +12,17 @@ body {
     color: #333;
 }
 
-h1, h2, h3, h4 {
+h1 {
+    letter-spacing: -8px;
     font-family: 'Spectral', serif;
     color: #000;
- letter-spacing: -5px;
+}
+
+h2 {
+    letter-spacing: -40%;
+    font-family: 'Spectral', serif;
+    color: #000;
+    font-weight: 700;
 }
 
 p {
@@ -60,11 +67,11 @@ header {
 }
 
 .curious {
-    padding: 10em 0 3em 0;
+    padding: 10em 0 3em 4em;
     background: #FFC017;
     display: flex;
     justify-content: space-between;
-    padding-left: 10em;
+    width: auto;
 }
 
 .curiousText {
@@ -96,14 +103,13 @@ header {
     border-radius: 99em;
 }
 
-.layout {
-    margin: 0 12em;
-}
 
 .trending {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: auto;
+    margin: 8%;
 }
 
 .trendbox {
@@ -111,19 +117,44 @@ header {
 }
 
 .trends {
-    padding: 0;
+    padding: 1em;
     margin: 0;
     display: flex;
-    width: 500px;
+    width: 32%;
+}
+
+.numeroni {
+    font-size: 250%;
+    color: #cfcfcf;
+    opacity: 60%;
+    width: 25%;
 }
 
 .trendsText {
-display: flex;
-flex-direction: column;
-width: 20em;
-height: 9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 105%;
+    
+}
+
+.trendsText img {
+    width: 2em;
 }
 
 .trendsText a {
     text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trendsText span {
+    padding-bottom: 4em;
+    font-size: smaller;
+    color: #8f8f8f;
+}
+
+.articles {
+    display: flex;
 }
