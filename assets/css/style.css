@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #ffc017;
+    padding: 2em 0;
+    border-bottom: 1px solid black;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav {
+    
+}
+
+.nav a {
+    margin-left: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.start {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 2em;
+    border-radius: 99em;
+}
+
+.curiousText {
+    text-align: center;
+    padding: 100px 0;
+    background: #FFC017;
+}
+
+.curiousText h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.curiousText p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.curiousText button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
