@@ -130,6 +130,21 @@ header {
     width: 25%;
 }
 
+.author {
+    display: flex;
+    justify-content: left;
+}
+
+.author p {
+  transform: translatey(10px);
+  padding-left: 3%;
+    flex-grow: 1 1 auto;
+}
+
+.author img {
+border-radius: 99em;
+}
+
 .trendsText {
     display: flex;
     flex-direction: column;
