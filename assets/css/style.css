@@ -51,10 +51,13 @@ header {
     border-radius: 99em;
 }
 
+.curious {
+    padding-top: 10em;
+    background: #FFC017;
+}
+
 .curiousText {
     text-align: center;
-    padding: 100px 0;
-    background: #FFC017;
 }
 
 .curiousText h1 {
